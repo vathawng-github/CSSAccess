@@ -1,0 +1,166 @@
+@import url("https://use.typekit.net/uzi7sqr.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "sofia-pro", sans-serif;
+}
+
+.container-fluid {
+  color: black;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.centerText {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.centerRow {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.756);
+}
+
+p {
+  color: rgba(0, 0, 0, 0.451);
+}
+
+.cards {
+  display: flex;
+}
+
+img {
+  width: 100%;
+  height: 70vh;
+}
+
+.form {
+  margin-top: 70px;
+}
+
+.form > * {
+  margin-left: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  margin: 10px;
+}
+
+input, select {
+  width: 80%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.451);
+}
+
+.smaller {
+  display: flex;
+  width: 80%;
+}
+
+.smaller > input {
+  margin-left: 10px;
+}
+
+button {
+  margin: 30px 10px 10px 10px;
+  width: 50%;
+  height: 50px;
+  border-radius: 12px;
+}
+
+#back {
+  background-color: white;
+  border: 1px solid #19A8D0;
+  color: #19A8D0;
+}
+
+#signUp {
+  background-color: #19A8D0;
+  color: white;
+  border:none;
+}
+
+/* Nav */
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.left > * {
+  margin: 10px;
+}
+
+.nav {
+  display: inline-flex;
+  font-weight: 700;
+}
+
+.nav li {
+  padding: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav li:hover {
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .nav {
+      display: none;
+  }
+  /* .navbar-toggler[aria-expanded="true"]  {
+      margin: 0 auto;
+  } */
+
+  .navbar-collapse {
+    background-color: white;
+  }
+
+  .center {
+    justify-content: center;
+  }
+}
